@@ -1,7 +1,7 @@
 class SecondLargestWithoutSort {
   final List<int>? number;
   SecondLargestWithoutSort({this.number});
-
+// Logic => we will compare each index with next index and then will check if number is greater with our largest then store it in largest and make second largest  = to largest or if not then check if number is smaller than largest but biger then smaller then add it to smaller.
   void checkSecondLargest(List<int> number) {
     int first = number[0];
     int second = number[1];
